@@ -562,12 +562,12 @@ export default function App() {
                   </div>
                 </div>
                 <ul className="profile-list">
-                  <li><span>Experience</span><strong>19+ Years</strong></li>
+                  <li><span>Experience</span><strong>10+ Years</strong></li>
                   <li><span>Current Company</span><strong>China International Trading Supply Chain Ltd,Co</strong></li>
-                  <li><span>Location</span><strong>Chennai, Tamil Nadu</strong></li>
+                  <li><span>Location</span><strong>Yiwu,Zhejiang,China</strong></li>
                   <li><span>Phone</span><strong>+86 176 6504 5566</strong></li>
-                  <li><span>Email</span><strong className="truncate">erpnanda@gmail.com</strong></li>
-                  <li><span>LinkedIn</span><strong>nanda-kumar-ababbb81</strong></li>
+                  <li><span>Email</span><strong className="truncate">dexter0714@foxmail.com</strong></li>
+                  <li><span>LinkedIn</span><strong>dextertrader</strong></li>
                   <li><span>Availability</span><strong className="available">Available in 30 Days</strong></li>
                 </ul>
 

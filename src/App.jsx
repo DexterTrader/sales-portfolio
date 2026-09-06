@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import './App.css';
 import logoImg from './assets/logo.png';
-import profileImg from './assets/nandaprofile.png';
+import profileImg from './assets/dexterprofile.png';
 
 /* Resume file served from the /public folder — Vite/CRA expose everything in
    /public at the site root, so this resolves to /Nanda_Kumar_Executive_Resume.docx */

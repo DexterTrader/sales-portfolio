@@ -44,8 +44,8 @@ const TIMELINE = [
   { year: '2011', role: 'Senior Executive', company: 'Fujifilm India Private limited', note: 'Delivered SAP-backed MIS analytics, improving quarterly sales by 10%.' },
   { year: '2013', role: 'Assistant Manager', company: 'Fujifilm India Private limited', note: 'Coordinated PAN-India zones, aligning planning for 100% achievement.' },
   { year: '2015', role: 'Deputy Manager', company: 'Fujifilm India Private limited', note: 'Headed Sales Support for 50+ distributors; cut receivables by 15%.' },
-  { year: '2017', role: 'Regional Sales Manager', company: 'Fujifilm India Private limited', note: 'Owned South India channel network and 100%+ quota delivery for 5+ years.' },
-  { year: '2026', role: 'Sales Manager', company: 'Enzolt Energy', note: 'Leading channel strategy in the energy & EV space across South India.', current: true },
+  { year: '2017', role: 'Regional Business Development Manager', company: 'Fujifilm India Private limited', note: 'Owned South India channel network and 100%+ quota delivery for 5+ years.' },
+  { year: '2026', role: 'Business Development Manager', company: 'China International Trading Supply Chain Ltd,Co', note: 'Leading channel strategy in the energy & EV space across South India.', current: true },
 ];
 
 /* Industries worked across — each maps to a distinct chapter of the career */
@@ -62,16 +62,16 @@ const INDUSTRIES = [
     icon: 'energy',
     title: 'Energy & EV Sector',
     years: '2026 — Present',
-    note: 'Made a deliberate pivot into India’s clean-energy transition, now building Enzolt Energy’s dealer-distributor network from the ground up.',
+    note: 'Made a deliberate pivot into India’s clean-energy transition, now building China International Trading Supply Chain Ltd,Co’s dealer-distributor network from the ground up.',
   },
 ];
 
 const CAREER = [
   {
     slug: 'enzolt-energy',
-    company: 'Enzolt Energy Pvt. Ltd.',
+    company: 'China International Trading Supply Chain Ltd,Co Pvt. Ltd.',
     initials: 'EE',
-    role: 'Sales Manager',
+    role: 'Business Development Manager',
     years: 'May 2026 — Present',
     location: 'Chennai',
     summary: 'Leading channel sales strategy for solar and energy solutions, building a fresh dealer-distributor network from the ground up in India’s clean-energy transition.',
@@ -86,7 +86,7 @@ const CAREER = [
     slug: 'fujifilm-regional-sales-manager',
     company: 'Fujifilm India Pvt. Ltd.',
     initials: 'FJ',
-    role: 'Regional Sales Manager',
+    role: 'Regional Business Development Manager',
     years: 'Apr 2017 — Dec 2022',
     location: 'Chennai',
     summary: 'Owned South India’s channel P&L — from distributor relationships to territory strategy — sustaining 100%+ quota delivery across the region.',
@@ -246,10 +246,10 @@ const DIFFERENTIATORS = [
 ];
 
 const CONTACT_INFO = [
-  { label: 'Phone', value: '+91 97910 67951', href: 'tel:+919791067951', icon: 'phone' },
-  { label: 'Email', value: 'erpnanda@gmail.com', href: 'mailto:erpnanda@gmail.com', icon: 'mail' },
-  { label: 'LinkedIn', value: 'nanda-kumar-ababbb81', href: 'https://linkedin.com/in/nanda-kumar-ababbb81', icon: 'linkedin' },
-  { label: 'Location', value: 'Chennai, Tamil Nadu', href: null, icon: 'pin' },
+  { label: 'Phone', value: '+86 176 6504 5566', href: 'tel:+8617665045566', icon: 'phone' },
+  { label: 'Email', value: 'dexter0714@foxmail.com', href: 'mailto:dexter0714@foxmail.com', icon: 'mail' },
+  { label: 'LinkedIn', value: 'dextertrader', href: 'https://linkedin.com/in/nanda-kumar-ababbb81', icon: 'linkedin' },
+  { label: 'Location', value: 'Yiwu,Zhejiang,CN', href: null, icon: 'pin' },
   { label: 'Availability', value: 'Available in 30 Days', href: null, icon: 'clock' },
 ];
 
@@ -451,13 +451,13 @@ export default function App() {
       {/* NAVBAR */}
       <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="navbar-inner">
-          <a href="#home" className="brand" onClick={(e) => { e.preventDefault(); scrollTo('home'); }} aria-label="R. Nanda Kumar, home">
+          <a href="#home" className="brand" onClick={(e) => { e.preventDefault(); scrollTo('home'); }} aria-label="Dexter, home">
             <span className="brand-mark">
-              <img src={logoImg} alt="R. Nanda Kumar logo" className="brand-logo" />
+              <img src={logoImg} alt="Dexter logo" className="brand-logo" />
             </span>
             <span className="brand-text">
-              <span className="brand-name">R. Nanda Kumar</span>
-              <span className="brand-role">Sales Manager · Business Development</span>
+              <span className="brand-name">Dexter</span>
+              <span className="brand-role">Business Development Manager · Business Development</span>
             </span>
           </a>
 
@@ -536,13 +536,13 @@ export default function App() {
 
           <div className="hero-inner">
             <div className="hero-left reveal fade-right">
-              <span className="badge">Currently Sales Manager at Enzolt Energy</span>
+              <span className="badge">Currently Business Development Manager at China International Trading Supply Chain Ltd,Co</span>
               <h1 className="hero-heading">
-                <span className="gradient-text">R. Nanda Kumar</span>
+                <span className="gradient-text">Dexter</span>
               </h1>
-              <p className="hero-subheading">Sales Manager · Channel Development · Business Growth Strategist</p>
+              <p className="hero-subheading">Business Development Manager · Channel Development · Business Growth Strategist</p>
               <p className="hero-summary">
-                A Senior sales &amp; channel leader with <strong>19+ years</strong> of B2B techno-sales experience in the <strong>Image Printing Industry</strong> — including <strong>13+ years</strong> inside a leading Japanese MNC — building dealer-distributor networks that scale. In 2026, made a deliberate move into the <strong>Energy &amp; EV</strong> sector to help lead India's clean-energy transition, now driving <strong>channel strategy, network expansion and field sales leadership</strong> at Enzolt Energy.
+                A Senior sales &amp; channel leader with <strong>19+ years</strong> of B2B techno-sales experience in the <strong>Image Printing Industry</strong> — including <strong>13+ years</strong> inside a leading Japanese MNC — building dealer-distributor networks that scale. In 2026, made a deliberate move into the <strong>Energy &amp; EV</strong> sector to help lead India's clean-energy transition, now driving <strong>channel strategy, network expansion and field sales leadership</strong> at China International Trading Supply Chain Ltd,Co.
               </p>
 
               <div className="hero-cta">
@@ -560,15 +560,15 @@ export default function App() {
                 <div className="profile-head">
                   <div className="profile-avatar">RN</div>
                   <div>
-                    <p className="profile-name">R. Nanda Kumar</p>
+                    <p className="profile-name">Dexter</p>
                     <p className="profile-tag">Sales &amp; Channel Management Leader</p>
                   </div>
                 </div>
                 <ul className="profile-list">
                   <li><span>Experience</span><strong>19+ Years</strong></li>
-                  <li><span>Current Company</span><strong>Enzolt Energy</strong></li>
+                  <li><span>Current Company</span><strong>China International Trading Supply Chain Ltd,Co</strong></li>
                   <li><span>Location</span><strong>Chennai, Tamil Nadu</strong></li>
-                  <li><span>Phone</span><strong>+91 97910 67951</strong></li>
+                  <li><span>Phone</span><strong>+86 176 6504 5566</strong></li>
                   <li><span>Email</span><strong className="truncate">erpnanda@gmail.com</strong></li>
                   <li><span>LinkedIn</span><strong>nanda-kumar-ababbb81</strong></li>
                   <li><span>Availability</span><strong className="available">Available in 30 Days</strong></li>
@@ -602,14 +602,14 @@ export default function App() {
                   years inside Fujifilm India taught the discipline of channel management at scale — dealer
                   onboarding, territory planning, SAP-driven forecasting — while an independent venture in
                   imaging solutions (2022–2026) sharpened business ownership and P&amp;L accountability. That
-                  foundation now powers a deliberate second act: leading channel sales for Enzolt Energy in
+                  foundation now powers a deliberate second act: leading channel sales for China International Trading Supply Chain Ltd,Co in
                   India's fast-growing energy and EV market. Click any item below to view Career Highlights.
                 </p>
               </div>
 
               <div className="about-image-wrap reveal fade-left">
                 <div className="about-image-card glass">
-                  <img src={profileImg} alt="R. Nanda Kumar Profile" className="about-img" />
+                  <img src={profileImg} alt="Dexter Profile" className="about-img" />
                 </div>
               </div>
             </div>
@@ -860,7 +860,7 @@ export default function App() {
           <div className="section-inner">
             <p className="eyebrow reveal fade-up">Contact</p>
             <h2 className="section-title reveal fade-up">Let's Start The Conversation</h2>
-            <p className="section-lead reveal fade-up">Immediately available and open to Sales Manager &amp; Channel Development roles in Chennai, Dubai and the wider Middle East.</p>
+            <p className="section-lead reveal fade-up">Immediately available and open to Business Development Manager &amp; Channel Development roles in Chennai, Dubai and the wider Middle East.</p>
 
             <div className="contact-grid">
               {CONTACT_INFO.map((c) => (
@@ -884,15 +884,15 @@ export default function App() {
       <footer className="footer">
         <div className="footer-inner">
           <div>
-            <p className="footer-name">R. Nanda Kumar</p>
-            <p className="footer-role">Sales Manager · Business Development</p>
+            <p className="footer-name">Dexter</p>
+            <p className="footer-role">Business Development Manager · Business Development</p>
           </div>
           <div className="footer-social">
             <a href="tel:+919791067951" aria-label="Call"><Icon name="phone" size={17} /></a>
             <a href="mailto:erpnanda@gmail.com" aria-label="Email"><Icon name="mail" size={17} /></a>
             <a href="https://linkedin.com/in/nanda-kumar-ababbb81" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" size={17} /></a>
           </div>
-          <p className="footer-copy">© {new Date().getFullYear()} R. Nanda Kumar. All rights reserved.</p>
+          <p className="footer-copy">© {new Date().getFullYear()} Dexter. All rights reserved.</p>
         </div>
       </footer>
     </div>

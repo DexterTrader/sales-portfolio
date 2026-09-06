@@ -165,21 +165,13 @@ const CAREER = [
 ];
 
 const EDUCATION = [
+
   {
-    degree: 'Master of Business Administration (MBA)',
-    institution: 'University of Madras',
-    year: '2009',
+    degree: 'Bachelor of Machanical Design and Application ',
+    institution: 'Hubei Polytechnic University ',
+    year: '2012',
   },
-  {
-    degree: 'Bachelor of Computer Application (BCA)',
-    institution: 'University of Madras',
-    year: '2006',
-  },
-  {
-    degree: 'Diploma in Information Technology (DIT)',
-    institution: 'Meenakshi Krishnan Polytechnic, Chennai',
-    year: '2004',
-  },
+
 ];
 
 const METRICS = [
@@ -193,8 +185,8 @@ const METRICS = [
 
 const EXPERTISE = [
   'Field Sales', 'Business Development', 'Dealer Appointment', 'Channel Expansion',
-  'Territory Planning', 'Key Account Management', 'B2B Sales', 'Retail Sales',
-  'Distribution Strategy', 'Sales Leadership', 'Technical Analysis', 'SAP', 'CRM',
+  'Marketing', 'Key Account Management', 'B2B Sales', 'Retail Sales',
+  'Distribution Strategy', 'Sales Leadership', 'Technical Analysis', 'SOP', 'CRM','6 SEGMA'
   'Advanced Excel', 'Negotiation', 'Forecasting', 'Relationship Building', 'Market Expansion',
 ];
 
@@ -206,7 +198,7 @@ const SKILL_GROUPS = [
       { name: 'Channel Development', value: 98 },
       { name: 'Distributor Management', value: 96 },
       { name: 'B2B Sales', value: 95 },
-      { name: 'Territory Planning', value: 93 },
+      { name: 'Marketing', value: 93 },
     ],
   },
   {
@@ -223,10 +215,10 @@ const SKILL_GROUPS = [
     title: 'Technical Skills',
     icon: 'chip',
     skills: [
-      { name: 'SAP (SD & Basis)', value: 90 },
+      { name: 'SOP', value: 90 },
       { name: 'CRM Systems', value: 92 },
       { name: 'Advanced Excel', value: 94 },
-      { name: 'Technical Analysis & MIS', value: 93 },
+      { name: 'Technical Analysis', value: 93 },
     ],
   },
 ];
@@ -253,7 +245,7 @@ const DIFFERENTIATORS = [
 const CONTACT_INFO = [
   { label: 'Phone', value: '+86 176 6504 5566', href: 'tel:+8617665045566', icon: 'phone' },
   { label: 'Email', value: 'dexter0714@foxmail.com', href: 'mailto:dexter0714@foxmail.com', icon: 'mail' },
-  { label: 'LinkedIn', value: 'dextertrader', href: 'https://linkedin.com/in/nanda-kumar-ababbb81', icon: 'linkedin' },
+  { label: 'LinkedIn', value: 'dextertrader', href: 'https://linkedin.com/in/dextertrader', icon: 'linkedin' },
   { label: 'Location', value: 'Yiwu,Zhejiang,CN', href: null, icon: 'pin' },
   { label: 'Availability', value: 'Available in 30 Days', href: null, icon: 'clock' },
 ];

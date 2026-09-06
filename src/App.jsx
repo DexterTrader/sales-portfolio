@@ -39,11 +39,11 @@ const HERO_STATS = [
 
 const TIMELINE = [
   { year: '2016', role: 'Machanical Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.' },
-  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Serve for SOUTH ASIA customers,indlucing Bosch, Liebherr，Haier，Midea, Panasonic.etc.' },
-  { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading a EU trading project,learing rapidly in the TOP10 Chinese trading company.' },
+  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Serve for South Asia customers,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
+  { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading Europe trading project,learing rapidly in the TOP10 Chinese trading company.' },
   { year: '2021', role: 'Senior Sales Manager', company: 'SPELAB Auto Parts Ltd,CO', note: 'Research in aftersales auto parts filed, improving quarterly sales by 20%.' },
-  { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO', note: 'Leading the EU projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },
-  { year: '2026', role: 'Senior Deputy Manager', company: 'China GUOMAO Group', note: 'Headed Sales Support for 30+ distributors,serve Africa Market, cut receivables by 15%.' },
+  { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO', note: 'Leading the KA projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },
+  { year: '2026', role: 'Senior Deputy Manager', company: 'China GUOMAO Group', note: 'Headed Sales Support for 30+ distributors,focus in South Africa Market, cut receivables by 15%.' },
   ];
 
 /* Industries worked across — each maps to a distinct chapter of the career */
@@ -51,16 +51,23 @@ const INDUSTRIES = [
   {
     slug: 'printing-imaging',
     icon: 'printer',
-    title: 'Printing & Imaging Industry',
-    years: '2004 — 2022 · 18+ Yrs',
-    note: 'Started in photo-lab technical support and grew into regional channel leadership at Fujifilm India, mastering B2B distribution in a mature, highly competitive category.',
+    title: 'Refrigeration Industry',
+    years: '2016 — 2019 · 3+ Yrs',
+    note: 'Started to work as an engineer,grew in R&D.Then serve the market,connected with South Asia Market. Travelled India, Bangaladesh, Pakistan, Indoneisa, Vietnam, Thailand, Australia and so on.Served.Work with BOSCH, Liebherr，Haier，Midea, Panasonic, Polytron(India), Walton(Bangladesh), Videocon(India).etc. ', 
   },
   {
     slug: 'energy-ev',
     icon: 'energy',
-    title: 'Energy & EV Sector',
-    years: '2026 — Present',
-    note: 'Made a deliberate pivot into India’s clean-energy transition, now building China International Trading Supply Chain Ltd,Co’s dealer-distributor network from the ground up.',
+    title: 'Comestic and Auto Parts Industry',
+    years: '2019 — 2023 · 5+ Yrs',
+    note: 'Established stable private and business relationships with many customers ,improved skills via cooperation and connecting with customers .',
+  },
+     {
+    slug: 'energy-ev',
+    icon: 'energy',
+    title: 'Energy Industry',
+    years: '2023 — 2026 · 3+ Yrs',
+    note: 'Focus on KEY customers. Leading energy equipments projects with huge TOP5 companies.Work with AirLiquide, Siemens Energy, Air Products, Linde, IngerSoll Rand.ect.',
   },
 ];
 

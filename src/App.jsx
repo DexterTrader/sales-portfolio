@@ -38,15 +38,13 @@ const HERO_STATS = [
 ];
 
 const TIMELINE = [
-  { year: '2016', role: 'Machanical Engineer', company: 'Donper Comperssor Group.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.' },
-  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Group.', note: 'Serve for global customers,indlucing Bosch,Liebherr，Haier，Midea,Panasonic.etc.' },
-  { year: '2009', role: 'Sales Coordinator', company: 'Fujifilm India Private limited', note: 'Drove product promotions; lifted customer inquiries by 20%.' },
-  { year: '2011', role: 'Senior Executive', company: 'Fujifilm India Private limited', note: 'Delivered SAP-backed MIS analytics, improving quarterly sales by 10%.' },
-  { year: '2013', role: 'Assistant Manager', company: 'Fujifilm India Private limited', note: 'Coordinated PAN-India zones, aligning planning for 100% achievement.' },
-  { year: '2015', role: 'Deputy Manager', company: 'Fujifilm India Private limited', note: 'Headed Sales Support for 50+ distributors; cut receivables by 15%.' },
-  { year: '2017', role: 'Regional Business Development Manager', company: 'Fujifilm India Private limited', note: 'Owned South India channel network and 100%+ quota delivery for 5+ years.' },
-  { year: '2026', role: 'Business Development Manager', company: 'China International Trading Supply Chain Ltd,Co', note: 'Leading channel strategy in the energy & EV space across South India.', current: true },
-];
+  { year: '2016', role: 'Machanical Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.' },
+  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Serve for SOUTH ASIA customers,indlucing Bosch, Liebherr，Haier，Midea, Panasonic.etc.' },
+  { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading a EU trading project,learing rapidly in the TOP10 Chinese trading company.' },
+  { year: '2021', role: 'Senior Sales Manager', company: 'SPELAB Auto Parts Ltd,CO', note: 'Research in aftersales auto parts filed, improving quarterly sales by 20%.' },
+  { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO', note: 'Leading the EU projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },
+  { year: '2026', role: 'Senior Deputy Manager', company: 'China GUOMAO Group', note: 'Headed Sales Support for 30+ distributors,serve Africa Market, cut receivables by 15%.' },
+  ];
 
 /* Industries worked across — each maps to a distinct chapter of the career */
 const INDUSTRIES = [

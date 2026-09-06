@@ -33,8 +33,8 @@ const NAV_LINKS = [
 const HERO_STATS = [
   { value: 10, suffix: '+', label: 'Years Experience' },
   { value: 100, suffix: '%+', label: 'Target Achievement' },
-  { value: 50, suffix: '+', label: 'Distributor Network' },
-  { value: 13, suffix: '+', label: 'Years, Japanese MNC' },
+  { value: 30, suffix: '+', label: 'Countries' },
+  { value: 15, suffix: '+', label: 'Top Companies,TOP500' },
 ];
 
 const TIMELINE = [

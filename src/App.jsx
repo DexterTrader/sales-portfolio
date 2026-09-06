@@ -31,15 +31,15 @@ const NAV_LINKS = [
 ];
 
 const HERO_STATS = [
-  { value: 19, suffix: '+', label: 'Years Experience' },
+  { value: 10, suffix: '+', label: 'Years Experience' },
   { value: 100, suffix: '%+', label: 'Target Achievement' },
   { value: 50, suffix: '+', label: 'Distributor Network' },
   { value: 13, suffix: '+', label: 'Years, Japanese MNC' },
 ];
 
 const TIMELINE = [
-  { year: '2004', role: 'Technical Engineer', company: 'Digital Photo Supply', note: 'Installed and maintained minilab equipment; ran billing & inventory systems.' },
-  { year: '2007', role: 'Sales & Service Engineer', company: 'EmSons Imaging Pvt. Ltd.', note: 'Moved into client-facing sales, resolving 90% of issues within SLA.' },
+  { year: '2016', role: 'Machanical Engineer', company: 'Donper Comperssor Group.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.' },
+  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Group.', note: 'Serve for global customers,indlucing Bosch,Liebherr，Haier，Midea,Panasonic.etc.' },
   { year: '2009', role: 'Sales Coordinator', company: 'Fujifilm India Private limited', note: 'Drove product promotions; lifted customer inquiries by 20%.' },
   { year: '2011', role: 'Senior Executive', company: 'Fujifilm India Private limited', note: 'Delivered SAP-backed MIS analytics, improving quarterly sales by 10%.' },
   { year: '2013', role: 'Assistant Manager', company: 'Fujifilm India Private limited', note: 'Coordinated PAN-India zones, aligning planning for 100% achievement.' },

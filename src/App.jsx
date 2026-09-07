@@ -57,9 +57,16 @@ const INDUSTRIES = [
   {
     slug: 'energy-ev',
     icon: 'energy',
-    title: 'Comestic and Auto Parts Industry',
+    title: 'Comestic Industry',
     years: '2019 — 2023 · 5+ Yrs',
     note: 'Established stable private and business relationships with many customers ,improved skills via cooperation and connecting with customers .',
+  },
+   {
+    slug: 'energy-ev',
+    icon: 'energy',
+    title: 'Auto Parts Industry',
+    years: '2019 — 2023 · 5+ Yrs',
+    note: 'Running the auto parts Brand .',
   },
      {
     slug: 'energy-ev',
@@ -869,9 +876,9 @@ export default function App() {
             </div>
 
             <div className="contact-actions reveal fade-up">
-              <a className="btn btn-primary magnetic" href="tel:+919791067951"><Icon name="phone" size={17} /> Call</a>
-              <a className="btn btn-secondary magnetic" href="mailto:erpnanda@gmail.com"><Icon name="mail" size={17} /> Email</a>
-              <a className="btn btn-ghost magnetic" href="https://linkedin.com/in/nanda-kumar-ababbb81" target="_blank" rel="noreferrer"><Icon name="linkedin" size={17} /> LinkedIn</a>
+              <a className="btn btn-primary magnetic" href="tel:+8617665045566"><Icon name="phone" size={17} /> Call</a>
+              <a className="btn btn-secondary magnetic" href="mailto:dexter0714@foxmail.com"><Icon name="mail" size={17} /> Email</a>
+              <a className="btn btn-ghost magnetic" href="https://linkedin.com/in/dextertrader" target="_blank" rel="noreferrer"><Icon name="linkedin" size={17} /> LinkedIn</a>
             </div>
           </div>
         </section>
@@ -884,9 +891,9 @@ export default function App() {
             <p className="footer-role">Business Development Manager · Business Development</p>
           </div>
           <div className="footer-social">
-            <a href="tel:+919791067951" aria-label="Call"><Icon name="phone" size={17} /></a>
-            <a href="mailto:erpnanda@gmail.com" aria-label="Email"><Icon name="mail" size={17} /></a>
-            <a href="https://linkedin.com/in/nanda-kumar-ababbb81" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" size={17} /></a>
+            <a href="tel:+8617665045566" aria-label="Call"><Icon name="phone" size={17} /></a>
+            <a href="mailto:dexter0714@foxmail.com" aria-label="Email"><Icon name="mail" size={17} /></a>
+            <a href="https://linkedin.com/in/dextertrader" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" size={17} /></a>
           </div>
           <p className="footer-copy">© {new Date().getFullYear()} Dexter. All rights reserved.</p>
         </div>

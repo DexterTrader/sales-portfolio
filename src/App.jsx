@@ -210,7 +210,6 @@ const EXPERTISE = [
   'Relationship Building',
   'Market Expansion'
 ];
-];
 
 const SKILL_GROUPS = [
   {

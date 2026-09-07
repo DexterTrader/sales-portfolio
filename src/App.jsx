@@ -38,7 +38,8 @@ const HERO_STATS = [
 ];
 
 const TIMELINE = [
-  { year: '2016', role: 'Machanical Engineer / Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.And worked with overseas marketing team then,provide services for South Asia area,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
+  { year: '2016', role: 'Machanical Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.' },
+  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Serve for South Asia customers,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
   { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading Europe trading project,learing rapidly in the TOP10 Chinese trading company.' },
   { year: '2021', role: 'Senior Sales Manager', company: 'SPELAB Auto Parts Ltd,CO.', note: 'Research in aftersales auto parts filed, improving quarterly sales by 20%.' },
   { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO.', note: 'Leading the KA projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },
@@ -57,16 +58,9 @@ const INDUSTRIES = [
   {
     slug: 'energy-ev',
     icon: 'energy',
-    title: 'Comestic Industry',
+    title: 'Comestic and Auto Parts Industry',
     years: '2019 — 2023 · 5+ Yrs',
     note: 'Established stable private and business relationships with many customers ,improved skills via cooperation and connecting with customers .',
-  },
-   {
-    slug: 'energy-ev',
-    icon: 'energy',
-    title: 'Auto Parts Industry',
-    years: '2019 — 2023 · 5+ Yrs',
-    note: 'Running the auto parts Brand .',
   },
      {
     slug: 'energy-ev',
@@ -171,13 +165,21 @@ const CAREER = [
 ];
 
 const EDUCATION = [
-
   {
-    degree: 'Bachelor of Machanical Design and Application ',
-    institution: 'Hubei Polytechnic University ',
-    year: '2012',
+    degree: 'Master of Business Administration (MBA)',
+    institution: 'University of Madras',
+    year: '2009',
   },
-
+  {
+    degree: 'Bachelor of Computer Application (BCA)',
+    institution: 'University of Madras',
+    year: '2006',
+  },
+  {
+    degree: 'Diploma in Information Technology (DIT)',
+    institution: 'Meenakshi Krishnan Polytechnic, Chennai',
+    year: '2004',
+  },
 ];
 
 const METRICS = [
@@ -190,24 +192,10 @@ const METRICS = [
 ];
 
 const EXPERTISE = [
-  'Field Sales',
-  'Business Development',
-  'Dealer Appointment',
-  'Channel Expansion',
-  'Marketing',
-  'Key Account Management',
-  'B2B Sales',
-  'Retail Sales',
-  'Distribution Strategy',
-  'Sales Leadership',
-  'Technical Analysis',
-  'SOP',
-  'CRM Management',
-  'Advanced Excel',
-  'Negotiation',
-  'Forecasting',
-  'Relationship Building',
-  'Market Expansion'
+  'Field Sales', 'Business Development', 'Dealer Appointment', 'Channel Expansion',
+  'Territory Planning', 'Key Account Management', 'B2B Sales', 'Retail Sales',
+  'Distribution Strategy', 'Sales Leadership', 'Technical Analysis', 'SAP', 'CRM',
+  'Advanced Excel', 'Negotiation', 'Forecasting', 'Relationship Building', 'Market Expansion',
 ];
 
 const SKILL_GROUPS = [
@@ -218,7 +206,7 @@ const SKILL_GROUPS = [
       { name: 'Channel Development', value: 98 },
       { name: 'Distributor Management', value: 96 },
       { name: 'B2B Sales', value: 95 },
-      { name: 'Marketing', value: 93 },
+      { name: 'Territory Planning', value: 93 },
     ],
   },
   {
@@ -235,10 +223,10 @@ const SKILL_GROUPS = [
     title: 'Technical Skills',
     icon: 'chip',
     skills: [
-      { name: 'SOP', value: 90 },
+      { name: 'SAP (SD & Basis)', value: 90 },
       { name: 'CRM Systems', value: 92 },
       { name: 'Advanced Excel', value: 94 },
-      { name: 'Technical Analysis', value: 93 },
+      { name: 'Technical Analysis & MIS', value: 93 },
     ],
   },
 ];
@@ -265,15 +253,9 @@ const DIFFERENTIATORS = [
 const CONTACT_INFO = [
   { label: 'Phone', value: '+86 176 6504 5566', href: 'tel:+8617665045566', icon: 'phone' },
   { label: 'Email', value: 'dexter0714@foxmail.com', href: 'mailto:dexter0714@foxmail.com', icon: 'mail' },
-  { label: 'LinkedIn', value: 'dextertrader', href: 'https://linkedin.com/in/dextertrader', icon: 'linkedin' },
+  { label: 'LinkedIn', value: 'dextertrader', href: 'https://linkedin.com/in/nanda-kumar-ababbb81', icon: 'linkedin' },
   { label: 'Location', value: 'Yiwu,Zhejiang,CN', href: null, icon: 'pin' },
   { label: 'Availability', value: 'Available in 30 Days', href: null, icon: 'clock' },
-  { label: 'WhatsApp', value: 'WhatsApp', href: 'https://wa.me/8617665045566', icon: 'whatsapp' },
-  { label: 'X', value: 'dextertrader8', href: 'https://x.com/dextertrader8', icon: 'x' },
-  { label: 'Facebook', value: 'dextertrader8', href: 'https://facebook.com/dextertrader8', icon: 'facebook' },
-  { label: 'Instagram', value: 'dexter0714', href: 'https://instagram.com/dexter0714', icon: 'instagram' },
-  { label: 'Pinterest', value: 'dextertrader8', href: 'https://pinterest.com/dextertrader8', icon: 'pinterest' },
-];
 ];
 
 /* ============================================================
@@ -299,13 +281,7 @@ const Icon = ({ name, size = 20 }) => {
     case 'download': return <svg {...p}><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><path d="M7 10l5 5 5-5M12 15V3" /></svg>;
     case 'arrow': return <svg {...p}><path d="M5 12h14M13 5l7 7-7 7" /></svg>;
     case 'sun': return <svg {...p}><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg>;
-    case 'whatsapp':return <svg {...p}><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>;
-    case 'x':return <svg {...p}><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>;
-    case 'facebook':return <svg {...p}><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>;
-    case 'instagram':return <svg {...p}><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>;
-    case 'pinterest':return <svg {...p}><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.244 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.414 0-5.42 2.557-5.42 5.198 0 1.03.395 2.132.889 2.735.1.12.112.228.086.35-.092.371-.293 1.186-.334 1.363-.053.225-.173.27-.4.163-1.498-.695-2.438-2.895-2.438-4.66 0-3.785 2.75-7.262 7.929-7.262 4.159 0 7.398 2.966 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.617 0 11.984-5.367 11.984-11.987C23.999 5.367 18.633 0 12.017 0z"/></svg>;
-    case 'map':return <svg {...p}><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" /><circle cx="12" cy="12" r="3" /></svg>;
-     default: return null;
+    default: return null;
   }
 };
 
@@ -594,12 +570,12 @@ export default function App() {
                   </div>
                 </div>
                 <ul className="profile-list">
-                  <li><span>Experience</span><strong>10+ Years</strong></li>
+                  <li><span>Experience</span><strong>19+ Years</strong></li>
                   <li><span>Current Company</span><strong>China International Trading Supply Chain Ltd,Co</strong></li>
-                  <li><span>Location</span><strong>Yiwu,Zhejiang,China</strong></li>
+                  <li><span>Location</span><strong>Chennai, Tamil Nadu</strong></li>
                   <li><span>Phone</span><strong>+86 176 6504 5566</strong></li>
-                  <li><span>Email</span><strong className="truncate">dexter0714@foxmail.com</strong></li>
-                  <li><span>LinkedIn</span><strong>dextertrader</strong></li>
+                  <li><span>Email</span><strong className="truncate">erpnanda@gmail.com</strong></li>
+                  <li><span>LinkedIn</span><strong>nanda-kumar-ababbb81</strong></li>
                   <li><span>Availability</span><strong className="available">Available in 30 Days</strong></li>
                 </ul>
 
@@ -902,9 +878,9 @@ export default function App() {
             </div>
 
             <div className="contact-actions reveal fade-up">
-              <a className="btn btn-primary magnetic" href="tel:+8617665045566"><Icon name="phone" size={17} /> Call</a>
-              <a className="btn btn-secondary magnetic" href="mailto:dexter0714@foxmail.com"><Icon name="mail" size={17} /> Email</a>
-              <a className="btn btn-ghost magnetic" href="https://linkedin.com/in/dextertrader" target="_blank" rel="noreferrer"><Icon name="linkedin" size={17} /> LinkedIn</a>
+              <a className="btn btn-primary magnetic" href="tel:+919791067951"><Icon name="phone" size={17} /> Call</a>
+              <a className="btn btn-secondary magnetic" href="mailto:erpnanda@gmail.com"><Icon name="mail" size={17} /> Email</a>
+              <a className="btn btn-ghost magnetic" href="https://linkedin.com/in/nanda-kumar-ababbb81" target="_blank" rel="noreferrer"><Icon name="linkedin" size={17} /> LinkedIn</a>
             </div>
           </div>
         </section>
@@ -917,9 +893,9 @@ export default function App() {
             <p className="footer-role">Business Development Manager · Business Development</p>
           </div>
           <div className="footer-social">
-            <a href="tel:+8617665045566" aria-label="Call"><Icon name="phone" size={17} /></a>
-            <a href="mailto:dexter0714@foxmail.com" aria-label="Email"><Icon name="mail" size={17} /></a>
-            <a href="https://linkedin.com/in/dextertrader" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" size={17} /></a>
+            <a href="tel:+919791067951" aria-label="Call"><Icon name="phone" size={17} /></a>
+            <a href="mailto:erpnanda@gmail.com" aria-label="Email"><Icon name="mail" size={17} /></a>
+            <a href="https://linkedin.com/in/nanda-kumar-ababbb81" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" size={17} /></a>
           </div>
           <p className="footer-copy">© {new Date().getFullYear()} Dexter. All rights reserved.</p>
         </div>

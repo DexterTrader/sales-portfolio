@@ -38,8 +38,7 @@ const HERO_STATS = [
 ];
 
 const TIMELINE = [
-  { year: '2016', role: 'Machanical Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.' },
-  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Serve for South Asia customers,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
+  { year: '2016', role: 'Machanical Engineer / Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.And worked with overseas marketing team then,provide services for South Asia area,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
   { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading Europe trading project,learing rapidly in the TOP10 Chinese trading company.' },
   { year: '2021', role: 'Senior Sales Manager', company: 'SPELAB Auto Parts Ltd,CO.', note: 'Research in aftersales auto parts filed, improving quarterly sales by 20%.' },
   { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO.', note: 'Leading the KA projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },

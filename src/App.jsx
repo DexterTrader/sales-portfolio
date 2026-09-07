@@ -38,8 +38,7 @@ const HERO_STATS = [
 ];
 
 const TIMELINE = [
-  { year: '2016', role: 'Machanical Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.' },
-  { year: '2018', role: 'Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Serve for South Asia customers,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
+  { year: '2016', role: 'Machanical Engineer/Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.And then provide services for South Asia customers,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
   { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading Europe trading project,learing rapidly in the TOP10 Chinese trading company.' },
   { year: '2021', role: 'Senior Sales Manager', company: 'SPELAB Auto Parts Ltd,CO.', note: 'Research in aftersales auto parts filed, improving quarterly sales by 20%.' },
   { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO.', note: 'Leading the KA projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },
@@ -253,7 +252,7 @@ const DIFFERENTIATORS = [
 const CONTACT_INFO = [
   { label: 'Phone', value: '+86 176 6504 5566', href: 'tel:+8617665045566', icon: 'phone' },
   { label: 'Email', value: 'dexter0714@foxmail.com', href: 'mailto:dexter0714@foxmail.com', icon: 'mail' },
-  { label: 'LinkedIn', value: 'dextertrader', href: 'https://linkedin.com/in/nanda-kumar-ababbb81', icon: 'linkedin' },
+  { label: 'LinkedIn', value: 'dextertrader', href: 'https://linkedin.com/in/dextertrader', icon: 'linkedin' },
   { label: 'Location', value: 'Yiwu,Zhejiang,CN', href: null, icon: 'pin' },
   { label: 'Availability', value: 'Available in 30 Days', href: null, icon: 'clock' },
 ];
@@ -574,8 +573,8 @@ export default function App() {
                   <li><span>Current Company</span><strong>China International Trading Supply Chain Ltd,Co</strong></li>
                   <li><span>Location</span><strong>Chennai, Tamil Nadu</strong></li>
                   <li><span>Phone</span><strong>+86 176 6504 5566</strong></li>
-                  <li><span>Email</span><strong className="truncate">erpnanda@gmail.com</strong></li>
-                  <li><span>LinkedIn</span><strong>nanda-kumar-ababbb81</strong></li>
+                  <li><span>Email</span><strong className="truncate">dexter0714@foxmail.com</strong></li>
+                  <li><span>LinkedIn</span><strong>dextertrader</strong></li>
                   <li><span>Availability</span><strong className="available">Available in 30 Days</strong></li>
                 </ul>
 
@@ -878,9 +877,9 @@ export default function App() {
             </div>
 
             <div className="contact-actions reveal fade-up">
-              <a className="btn btn-primary magnetic" href="tel:+919791067951"><Icon name="phone" size={17} /> Call</a>
-              <a className="btn btn-secondary magnetic" href="mailto:erpnanda@gmail.com"><Icon name="mail" size={17} /> Email</a>
-              <a className="btn btn-ghost magnetic" href="https://linkedin.com/in/nanda-kumar-ababbb81" target="_blank" rel="noreferrer"><Icon name="linkedin" size={17} /> LinkedIn</a>
+              <a className="btn btn-primary magnetic" href="tel:+8617665045566"><Icon name="phone" size={17} /> Call</a>
+              <a className="btn btn-secondary magnetic" href="mailto:dexter0714@foxmail.com"><Icon name="mail" size={17} /> Email</a>
+              <a className="btn btn-ghost magnetic" href="https://linkedin.com/in/dextertrader" target="_blank" rel="noreferrer"><Icon name="linkedin" size={17} /> LinkedIn</a>
             </div>
           </div>
         </section>
@@ -890,12 +889,12 @@ export default function App() {
         <div className="footer-inner">
           <div>
             <p className="footer-name">Dexter</p>
-            <p className="footer-role">Business Development Manager · Business Development</p>
+            <p className="footer-role">Business Development Manager · China Souring Manager</p>
           </div>
           <div className="footer-social">
-            <a href="tel:+919791067951" aria-label="Call"><Icon name="phone" size={17} /></a>
-            <a href="mailto:erpnanda@gmail.com" aria-label="Email"><Icon name="mail" size={17} /></a>
-            <a href="https://linkedin.com/in/nanda-kumar-ababbb81" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" size={17} /></a>
+            <a href="tel:+8617665045566" aria-label="Call"><Icon name="phone" size={17} /></a>
+            <a href="mailto:dexter0714@foxmail.com" aria-label="Email"><Icon name="mail" size={17} /></a>
+            <a href="https://linkedin.com/in/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Icon name="linkedin" size={17} /></a>
           </div>
           <p className="footer-copy">© {new Date().getFullYear()} Dexter. All rights reserved.</p>
         </div>

@@ -192,7 +192,7 @@ const METRICS = [
 const EXPERTISE = [
   'Field Sales', 'Business Development', 'Dealer Appointment', 'Channel Expansion',
   'Marketing', 'Key Account Management', 'B2B Sales', 'Retail Sales',
-  'Distribution Strategy', 'Sales Leadership', 'Technical Analysis', 'SOP', 'CRM','6 SEGMA'
+  'Distribution Strategy', 'Sales Leadership', 'Technical Analysis', 'SOP', 'CRM','6 SEGMA',
   'Advanced Excel', 'Negotiation', 'Forecasting', 'Relationship Building', 'Market Expansion',
 ];
 

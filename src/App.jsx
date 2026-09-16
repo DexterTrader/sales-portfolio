@@ -80,12 +80,10 @@ const CAREER = [
     location: 'Yiwu,Zhejiang Province',
     summary: 'Market development covering Zambia, with sales across industrialization & agriculture & transportation sectors..',
     achievements: [
-      '- Industrial: automated production lines
-       - Agriculture: full value chain machinery including livestock breeding, incubation, slaughtering & transportation; crop sowing, irrigation, farming, harvesting, sorting and packaging equipment
-       - Transportation & mining: mine track renovation, heavy-duty mining trucks, excavators, cranes and road rollers
-    ],
-    tech: ['Business Development', 'B2B & B2C', 'Marketing', 'Local Service Network Building'],
-  },
+  '- Industrial: automated production lines',
+  '- Agriculture: full value chain machinery including livestock breeding, incubation, slaughtering & transportation; crop sowing, irrigation, farming, harvesting, sorting and packaging equipment',
+  '- Transportation & mining: mine track renovation, heavy-duty mining trucks, excavators, cranes and road rollers',
+],
   {
     slug: 'fujifilm-regional-sales-manager',
     company: 'SREAL Heat Exchanger Company',

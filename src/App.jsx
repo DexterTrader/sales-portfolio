@@ -576,12 +576,11 @@ export default function App() {
                   </div>
                 </div>
                 <ul className="profile-list">
-                  <li><span>Experience</span><strong>10+ Years</strong></li>
                   <li><span>Current Company</span><strong>China International Trading Supply Chain Ltd,Co</strong></li>
                   <li><span>Location</span><strong>Shanghai,China</strong></li>
-                  <li><span>Phone</span><strong>+86 17665045566</strong></li>
-                  <li><span>Email</span><strong className="truncate">dexter0714@foxmail.com</strong></li>
-                  <li><span>LinkedIn</span><strong>dextertrader</strong></li>
+                  <li><span>Phone</span><strong><a href="https://wa.me/8617665045566" target="_blank" rel="noreferrer">+86 17665045566</a></strong></li>
+                  <li><span>Email</span><strong className="truncate"><a href="mailto:dexter0714@foxmail.com">dexter0714@foxmail.com</a></strong></li>
+                  <li><span>LinkedIn</span><strong><a href="https://linkedin.com/in/dextertrader" target="_blank" rel="noreferrer">dextertrader</a></strong></li>
                   <li><span>Availability</span><strong className="available">Available in 30 Days</strong></li>
                 </ul>
 

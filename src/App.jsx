@@ -80,11 +80,12 @@ const CAREER = [
     location: 'Yiwu,Zhejiang Province',
     summary: 'Market development covering Zambia, with sales across industrialization & agriculture & transportation sectors..',
     achievements: [
-  '- Industrial: automated production lines',
-  '- Agriculture: full value chain machinery including livestock breeding, incubation, slaughtering & transportation; crop sowing, irrigation, farming, harvesting, sorting and packaging equipment',
-  '- Transportation & mining: mine track renovation, heavy-duty mining trucks, excavators, cranes and road rollers',
-],
-  {
+      '- Industrial: automated production lines',
+      '- Agriculture: ...',
+      '- Transportation & mining: ...',
+    ],        // ← achievements 数组结束
+  },          // ← 第一个对象结束（这一行必须有！）
+  {           // ← 第二个对象开始
     slug: 'fujifilm-regional-sales-manager',
     company: 'SREAL Heat Exchanger Company',
     initials: 'SREAL',

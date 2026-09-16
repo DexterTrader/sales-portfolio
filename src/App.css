@@ -1330,4 +1330,23 @@ a:focus-visible {
   .hero { min-height: 78vh; }
   .hero-inner { grid-template-columns: 1.1fr 0.9fr; }
   .hero-right { max-width: 420px; margin: 0; }
+   /* ============================================================
+   PROFILE LIST — 链接可点击 + 悬停变色
+   ============================================================ */
+
+.profile-list li strong a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.profile-list li strong a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* Phone / Email / LinkedIn 链接鼠标变手型 */
+.profile-list li strong a {
+  cursor: pointer;
+}
 }

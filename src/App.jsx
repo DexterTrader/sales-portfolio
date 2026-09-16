@@ -38,11 +38,11 @@ const HERO_STATS = [
 ];
 
 const TIMELINE = [
-  { year: '2016', role: 'Mechanical Engineer & Sales Engineer', company: 'Donper Compressor Ltd,CO.', note: 'Refrigeration Mechanical Engineer worked in R&D depts,work with Brazil R&D team.And then provide services for South Asia customers,including BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
+  { year: '2016', role: 'Machanical Engineer / Field Application Engineer', company: 'Donper Comperssor Ltd,CO.', note: 'Refrigeration Machanical Engineer worked in R&D depts,work with Brazil R&D team.And then provide services for South Asia customers,indlucing BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
   { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading Europe trading project,learing rapidly in the TOP10 Chinese trading company.' },
   { year: '2021', role: 'Senior Sales Manager', company: 'SPELAB Auto Parts Ltd,CO.', note: 'Research in aftersales auto parts filed, improving quarterly sales by 20%.' },
   { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO.', note: 'Leading the KA projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },
-  { year: '2026', role: 'Business Development Manager', company: 'China GUOMAO Group', note: 'Headed Sales Support for 30+ distributors,focus in South Africa Market, cut receivables by 15%.' },
+  { year: '2026', role: 'Senior Deputy Manager', company: 'China GUOMAO Group', note: 'Headed Sales Support for 30+ distributors,focus in South Africa Market, cut receivables by 15%.' },
   ];
 
 /* Industries worked across — each maps to a distinct chapter of the career */
@@ -52,12 +52,12 @@ const INDUSTRIES = [
     icon: 'printer',
     title: 'Refrigeration Industry',
     years: '2016 — 2019 · 3+ Yrs',
-    note: 'Started to work as an engineer,grew in R&D.Then serve the market,connected with South Asia Market. Travelled India, Bangladesh, Pakistan, Indoneisa, Vietnam, Thailand, Australia and so on.Served.Work with BOSCH, Liebherr，Haier，Midea, Panasonic, Polytron(India), Walton(Bangladesh), Videocon(India).etc. ', 
+    note: 'Started to work as an engineer,grew in R&D.Then serve the market,connected with South Asia Market. Travelled India, Bangaladesh, Pakistan, Indoneisa, Vietnam, Thailand, Australia and so on.Served.Work with BOSCH, Liebherr，Haier，Midea, Panasonic, Polytron(India), Walton(Bangladesh), Videocon(India).etc. ', 
   },
   {
     slug: 'energy-ev',
     icon: 'energy',
-    title: 'Auto Parts Industry',
+    title: 'Comestic and Auto Parts Industry',
     years: '2019 — 2023 · 5+ Yrs',
     note: 'Established stable private and business relationships with many customers ,improved skills via cooperation and connecting with customers .',
   },
@@ -74,24 +74,25 @@ const CAREER = [
   {
     slug: 'enzolt-energy',
     company: 'China International Trading Supply Chain Ltd,Co Pvt. Ltd.',
-    initials: 'GM',
+    initials: 'EE',
     role: 'Business Development Manager',
     years: 'May 2026 — Present',
-    location: 'Yiwu,Zhejiang Province',
-    summary: 'Market development covering Zambia, with sales across industrialization & agriculture & transportation sectors..',
+    location: 'Chennai',
+    summary: 'Leading channel sales strategy for solar and energy solutions, building a fresh dealer-distributor network from the ground up in India’s clean-energy transition.',
     achievements: [
-      '- Industrial: automated production lines',
-      '- Agriculture: ...',
-      '- Transportation & mining: ...',
-    ],        // ← achievements 数组结束
-  },          // ← 第一个对象结束（这一行必须有！）
-  {           // ← 第二个对象开始
+      'Appointed and activated a multi-city dealer network within the first month',
+      'Owning annual targets end-to-end: pipeline, funnel, corrective action',
+      'Designed dealer incentive schemes to drive channel engagement',
+    ],
+    tech: ['Channel Strategy', 'B2B & B2C', 'Market Mapping', 'MIS Reporting'],
+  },
+  {
     slug: 'fujifilm-regional-sales-manager',
-    company: 'SREAL Heat Exchanger Company',
-    initials: 'SREAL',
-    role: 'KA Customer Manager',
-    years: 'Apr 2024 — May 2026',
-    location: 'Hubei Province',
+    company: 'Fujifilm India Pvt. Ltd.',
+    initials: 'FJ',
+    role: 'Regional Business Development Manager',
+    years: 'Apr 2017 — Dec 2022',
+    location: 'Chennai',
     summary: 'Owned South India’s channel P&L — from distributor relationships to territory strategy — sustaining 100%+ quota delivery across the region.',
     achievements: [
       'Consistently converted prospects into long-term, high-value accounts',

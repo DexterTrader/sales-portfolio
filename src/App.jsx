@@ -38,7 +38,7 @@ const HERO_STATS = [
 ];
 
 const TIMELINE = [
-  { year: '2016', role: 'Mechanical Engineer / Sales Engineer', company: 'Donper Compressor Ltd,CO.', note: 'Refrigeration Mechanical Engineer worked in R&D depts,work with Brazil R&D team.And then provide services for South Asia customers,including BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
+  { year: '2016', role: 'Mechanical Engineer & Sales Engineer', company: 'Donper Compressor Ltd,CO.', note: 'Refrigeration Mechanical Engineer worked in R&D depts,work with Brazil R&D team.And then provide services for South Asia customers,including BOSCH, Liebherr，Haier，Midea, Panasonic.etc.' },
   { year: '2019', role: 'Sales Manager', company: 'Market Union Group', note: 'Leading Europe trading project,learing rapidly in the TOP10 Chinese trading company.' },
   { year: '2021', role: 'Senior Sales Manager', company: 'SPELAB Auto Parts Ltd,CO.', note: 'Research in aftersales auto parts filed, improving quarterly sales by 20%.' },
   { year: '2023', role: 'Senior Project Manager', company: 'SREAL Exchange Heater Ltd,CO.', note: 'Leading the KA projects, work with AirLiquid, Siemens, AirProducts, Ingersoll Rand.ect.' },
@@ -57,7 +57,7 @@ const INDUSTRIES = [
   {
     slug: 'energy-ev',
     icon: 'energy',
-    title: 'Comestic and Auto Parts Industry',
+    title: 'Auto Parts Industry',
     years: '2019 — 2023 · 5+ Yrs',
     note: 'Established stable private and business relationships with many customers ,improved skills via cooperation and connecting with customers .',
   },
